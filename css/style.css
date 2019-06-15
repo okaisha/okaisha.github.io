@@ -4,7 +4,7 @@
 
 #container-1 {
 	height: 660px;
-    width: 1400px;
+    width: auto;
     margin: auto;
 }
 
@@ -15,13 +15,13 @@
 #header {
 	height: 45px;
 	line-height: 45px;
-    width: 1400px;
+    width: auto;
     background-color: #000000 /*#4A4A4A;*/
 }
 
 #lineid-1 {
 	height: 2px;
-    width: 1400px;
+    width: auto;
     background-color: #4A4A4A;
 }
 
@@ -38,9 +38,9 @@
  -------------------*/
 
 #mapid { 
-	margin: 0 auto;
+	margin: auto;
 	height: 615px;
-	width: 75%;
+	width: 75%; /*75%*/
 	float: left;
 }
 
@@ -50,7 +50,7 @@
 
 #lineid-2 {
 	height: 615px;
-    width: 0.15%;
+    width: 0.2%;
     margin: auto;
     float: left;
     background-color: #4A4A4A;
@@ -91,7 +91,7 @@
 
 #map-container {
 	height: 615px;
-    width: 24.85%;
+    width: 24.8%;
     margin: auto;
     float: right;
     background-color: #000000; /*#EEEEEE;*/
@@ -105,7 +105,7 @@
 	background-color: white;
 }
 
-#title {
+.title {
 	margin-left: 6%;
 	font-family: Courier;
 	font-size: 12pt;
@@ -121,7 +121,7 @@
 	
 }
 
-.hierInfo {
+.info {
 	margin-left: 6%;
 	margin-right: 6%;
 	font-family: Courier;
@@ -131,14 +131,25 @@
 }
 
 /*------------------
-	Chart
+	Legend
  -------------------*/
+
+.legend {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+/*------------------
 
 #chartid {
 	margin-top: 6%;
 	margin-left: 6%;
-	height: 100px;
-	width: 300px;
+	height: 125px;
+	width: 50px;
 	background-color: white;
 }
 
@@ -147,6 +158,8 @@
 	margin-left: 0%;
 	
 }
+
+ -------------------*/
 
 
 
