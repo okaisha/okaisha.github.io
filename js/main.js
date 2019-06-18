@@ -178,7 +178,7 @@ $.when(cities).done(function(){
 
 	/////////////// Make a Legend ///////////////
 	/*
-	This won't work for me
+	This won't work for me 
 
 	var legend = L.control({position: 'bottomright'});
 
