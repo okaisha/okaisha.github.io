@@ -21,6 +21,7 @@ $.when(cities).done(function(){
 	for(var i = 0; i < features.length; i++){
 		cityNames.push(features[i].properties.city_name);
 	};
+	
 
 	var citySorted = cityNames.slice().sort();                                    
 	var results = [];
@@ -173,6 +174,30 @@ $.when(cities).done(function(){
 			});
 		}
 	});
+
+
+	/////////////// Make a Legend ///////////////
+	/*
+	This won't work for me
+
+	var legend = L.control({position: 'bottomright'});
+
+	legend.onAdd = function (map) {
+		
+		var legendDiv = L.DomUtil.create('div', 'legend');	
+		$('legendDiv').html('<h4 id="legend-title"><strong>Levels</strong></h4>');
+
+		//legendDiv.innerHTML = '<h4 id="legend-title"><strong>Levels</strong></h4>';
+
+		var legendCircle;
+		legendCircle = L.DomUtil.create('div', 'circleBase type1');
+		
+		return legendDiv;		
+	};
+
+	console.log(legend);
+	legend.addTo(map);
+	*/
 
 	/////////////// Search and Clear Cities ///////////////
 

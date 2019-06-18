@@ -107,17 +107,10 @@
 
 .title {
 	margin-left: 6%;
+	margin-top: 8%;
 	font-family: Courier;
 	font-size: 12pt;
-	color: white; /*#54FF54 #FF55FF;*/
-	
-}
-
-#legend {
-	margin-left: 6%;
-	font-family: Courier;
-	font-size: 12pt;
-	color: white; /*#54FF54 #FF55FF;*/
+	color: white;
 	
 }
 
@@ -131,35 +124,19 @@
 }
 
 /*------------------
-	Legend
+	Chart
  -------------------*/
-
-.legend {
-    padding: 6px 8px;
-    font: 14px/16px Arial, Helvetica, sans-serif;
-    background: white;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
-}
-
-/*------------------
-
 #chartid {
-	margin-top: 6%;
-	margin-left: 6%;
-	height: 125px;
-	width: 50px;
+	margin-left: 5%;
+	margin-top: auto;
+	height: 155px;
+	width: 240px;
 	background-color: white;
 }
 
-#tylerid {
-	height: 200px;
-	margin-left: 0%;
-	
+#legendid {
+	height: 155px;
+	width: auto;
+	margin: auto;
 }
-
- -------------------*/
-
-
 
